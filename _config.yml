@@ -1,4 +1,35 @@
-title: "Moja strona Jekyll"
-description: "Strona użytkownika Janzbedny na GitHub Pages"
-theme: minima
+title: "Jan Zbedny"
+description: "Moja osobista strona GitHub Pages"
 url: "https://janzbedny.github.io"
+baseurl: ""  # puste, bo to strona użytkownika
+
+theme: jekyll-theme-cayman
+
+# Opcjonalne dane autora
+author:
+  name: "Jan Zbedny"
+  email: "jan.zbedny@example.com"
+
+# Ustawienia Markdown i builda
+markdown: kramdown
+highlighter: rouge
+
+# Włącz obsługę linków relatywnych
+relative_links:
+  enabled: true
+  collections: true
+
+# Włącz pluginy wspierane przez GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Wyklucz lokalne pliki z builda
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
+  - .github/
