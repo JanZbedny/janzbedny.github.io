@@ -1,18 +1,84 @@
-<!-- _layouts/default.html -->
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-  <header>
-    <h1>{{ site.title }}</h1>
-  </header>
-  <main>{{ content }}</main>
-  <footer>
-    <p>&copy; {{ site.author }}</p>
-  </footer>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tomek · Portfolio</title>
+    <meta name="description" content="Projects, notes, and contact." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="/">Tomek</a>
+        <nav class="nav">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#contact" class="btn">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Hi, I’m Tomek</h1>
+          <p class="lead">I build simple, fast websites and small tools. Here are some recent projects.</p>
+          <div class="cta-group">
+            <a href="#projects" class="btn primary">View projects</a>
+            <a href="#about" class="btn">About me</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="grid">
+            <article class="card">
+              <h3>Project One</h3>
+              <p>Short description of what it is and what you used.</p>
+              <a class="link" href="#">View repo →</a>
+            </article>
+            <article class="card">
+              <h3>Project Two</h3>
+              <p>Short description of the project outcome and learnings.</p>
+              <a class="link" href="#">Live demo →</a>
+            </article>
+            <article class="card">
+              <h3>Project Three</h3>
+              <p>Another quick highlight with a result or metric.</p>
+              <a class="link" href="#">Details →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section alt">
+        <div class="container">
+          <h2>About</h2>
+          <p>I’m Tomek. I enjoy simple designs, clean code, and fast pages. This site is built with plain HTML/CSS and hosted on GitHub Pages.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Reach me via email: <a href="mailto:you@example.com">you@example.com</a> or on <a href="#">LinkedIn</a>.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Tomek · Built with GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
 </html>
