@@ -1,7 +1,11 @@
+lang: pl-PL
 title: Kalmar2024
 author: JanZbedny
 description: Projects, notes, and contact
 remote_theme: mmistakes/minimal-mistakes  # lub inny motyw z GitHub
+locale: pl_PL
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+ 
+

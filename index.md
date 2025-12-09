@@ -8,9 +8,9 @@ title: Home
 I build simple, fast websites and small tools.
 
 ## Projects
-- Project One — short description. [Repo](#)
-- Project Two — short description. [Demo](#)
-- Project Three — short description. [Details](#)
+- O Mnie — Jestem i nie Jestem.(#)
+- Informacje różne — Do przeczytania, wypróbowania na własną odpowiedzialność.(#)
+- Kontakt — Dla wytrwałych, szukajcie. Wyzwanie!!!. [Details](#)
 
 ## About
 A sentence or two about you and what you like working on.
