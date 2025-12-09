@@ -1,80 +1,45 @@
-/* Cayman-inspired theme */
-:root {
-  --color-primary: #2ea043;
-  --color-secondary: #222;
-  --color-tertiary: #586069;
-  --color-light: #f6f8fa;
-  --color-lighter: #fff;
-  --color-border: #d1d5da;
-  --color-link: #0366d6;
+/* Karty z opisami */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  color: var(--color-secondary);
-  background-color: var(--color-lighter);
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: var(--color-primary);
-  color: var(--color-lighter);
-  padding: 20px;
-  text-align: center;
-}
-
-nav {
-  background-color: var(--color-tertiary);
-  padding: 10px;
-}
-
-nav a {
-  color: var(--color-lighter);
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: var(--color-lighter);
-  border: 1px solid var(--color-border);
+.card {
+  background: #fff;
+  border: 1px solid #d1d5da;
   border-radius: 6px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-footer {
-  background-color: var(--color-tertiary);
-  color: var(--color-lighter);
-  text-align: center;
   padding: 20px;
-  margin-top: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
 }
 
-a {
-  color: var(--color-link);
-  text-decoration: none;
+.card:hover {
+  transform: translateY(-5px);
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: var(--color-secondary);
+.card h3 {
   margin-top: 0;
+  color: #2ea043;
 }
 
-code {
-  background-color: #f3f4f5;
-  padding: 2px 5px;
-  border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+.card p {
+  color: #586069;
+}
+
+.button {
+  display: inline-block;
+  background: #2ea043;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background: #2c974b;
 }

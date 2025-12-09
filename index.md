@@ -1,23 +1,25 @@
 ---
 layout: default
-title: Home
+title: Strona główna
 ---
+# Witamy na mojej stronie!
 
-# Cześć jestem Tomek
+Poniżej znajdziesz krótkie opisy moich projektów:
 
-
-I build simple, fast websites and small tools.
-
-## Projects
-- O Mnie — Jestem i nie Jestem.(#)
-- Informacje różne — Do przeczytania, wypróbowania na własną odpowiedzialność.(#)
-- Kontakt — Dla wytrwałych, szukajcie. Wyzwanie!!!. [Details](#)
-
-Strona stworzona z ciekawości.
-
-
-## About
-Będą zmiany wyglądu i treści.
-
-## Contact
-Email: you@example.com 
+<div class="cards">
+  <div class="card">
+    <h3>Projekt 1</h3>
+    <p>Krótki opis pierwszego projektu. Możesz tu opisać, czym się zajmuje i jakie technologie zostały użyte.</p>
+    <a href="#" class="button">Dowiedz się więcej</a>
+  </div>
+  <div class="card">
+    <h3>Projekt 2</h3>
+    <p>Krótki opis drugiego projektu. Wymień kluczowe funkcje lub cele projektu.</p>
+    <a href="#" class="button">Dowiedz się więcej</a>
+  </div>
+  <div class="card">
+    <h3>Projekt 3</h3>
+    <p>Krótki opis trzeciego projektu. Opisz, co wyróżnia ten projekt.</p>
+    <a href="#" class="button">Dowiedz się więcej</a>
+  </div>
+</div>
