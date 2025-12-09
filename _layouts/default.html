@@ -1,22 +1,18 @@
 <!-- _layouts/default.html -->
-{% raw %}
-{!DOCTYPE html}
+<!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }} | {{ page.title }}</title>
-  <!-- Ładuj styl motywu -->
-  {{ "head.html" | include }}
-  <!-- Dodaj własny CSS -->
-  <link rel="stylesheet" href="/assets/css/custom.css">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  {{ "header.html" | include }}
-  <main>
-    {{ content }}
-  </main>
-  {{ "footer.html" | include }}
+  <header>
+    <h1>{{ site.title }}</h1>
+  </header>
+  <main>{{ content }}</main>
+  <footer>
+    <p>&copy; {{ site.author }}</p>
+  </footer>
 </body>
 </html>
-{% endraw %}
