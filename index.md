@@ -1,6 +1,6 @@
 ---
 layout: default
-title: O Mnie
+title: Dane osobowe
 ---
 # Witamy na mojej stronie!
 
