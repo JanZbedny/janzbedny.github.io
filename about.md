@@ -2,7 +2,32 @@
 layout: default
 title: Wykształcenie
 ---
+<style>
+*,
+*::before,
+*::after { box-sizing: border-box; }
 
+html, body { margin: 0; padding: 0; overflow-x: hidden; }
+
+/* Cayman zawija treść w .page-content .wrapper – zdejmujemy limit */
+.page-content .wrapper,
+.wrapper,
+.main-content {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Treści mają wypełniać szerokość bez „rozpychania” układu */
+img, video, canvas, iframe { display: block; width: 100%; max-width: 100%; height: auto; }
+
+table { display: block; width: 100%; max-width: 100%; overflow-x: auto; border-collapse: collapse; }
+
+pre, code { white-space: pre-wrap; word-break: break-word; }
+</style>
 ## 🎓 Wykształcenie
 - 10.2007 – 04.2011 (3 lata 7 mies.)
   Olsztyńska Wyższa Szkoła Informatyki i Zarządzania im. Prof. Tadeusza Kotarbińskiego
