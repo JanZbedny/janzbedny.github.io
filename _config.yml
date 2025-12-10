@@ -1,21 +1,10 @@
-title: "Moja strona"
-description: "Opis mojej strony"
+title: Tomek
+description: Moja strona
+baseurl: "" # bez "/" jeśli strona jest na root repo
+url: "https://janzbedny.github.io"
 theme: jekyll-theme-cayman
 
-# Sidebar menu items
-menu:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about.html"
-  - title: "Blog"
-    url: "/blog/"
-
-# Dark mode
-dark_mode: true
-
-# Markdown
-markdown: kramdown
-highlighter: rouge
-
-plugins: []
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
