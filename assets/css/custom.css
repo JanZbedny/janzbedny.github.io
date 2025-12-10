@@ -64,7 +64,18 @@ body {
 /* ============================
    MAIN CONTENT
    ============================ */
+#content {
+  background: #fff;
+  min-height: 100vh;
 
+  /* szerokość treści */
+  max-width: 900px;
+  margin: 0 auto;
+
+  /* odstęp od sidebaru */
+  margin-left: 280px;
+  padding: 2.2rem;
+}
 /* More readable headings */
 h1, h2, h3, h4 {
   color: #111;
