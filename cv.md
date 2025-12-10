@@ -5,8 +5,6 @@ layout: default
 
 # 📄 Curriculum Vitae
 
----
-
 ## 👤 Dane osobowe
 
 | **Informacja**        | **Wartość** |
@@ -16,8 +14,6 @@ layout: default
 | 📍 Miejsce zamieszkania | Olsztyn |
 | 📞 Telefon            | 000 000 000 |
 | ✉️ E-mail             | vvvvJan@protonmail.com |
-
----
 
 ## 🎓 Wykształcenie — Oś czasu
 
