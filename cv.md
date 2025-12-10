@@ -20,21 +20,28 @@ layout: default
   <div class="entry">
     <div class="icon">🎓</div>
     <div class="content">
-      <h3>Szkoła / kierunek</h3>
-      <span class="date">2010 — 2015</span>
-      <p>Opis szkoły, kierunku, kwalifikacji.</p>
+      <h3>Olsztyńska Wyższa Szkoła Informatyki i Zarządzania im. Prof. Tadeusza Kotarbińskiego</h3>
+      <span class="date">2007 — 2011</span>
+      <p>Administracja Sieciami Komputerowymi | Informatyka | Inżynier.</p>
     </div>
   </div>
 
   <div class="entry">
     <div class="icon">🎓</div>
     <div class="content">
-      <h3>Szkoła 2</h3>
-      <span class="date">2007 — 2010</span>
-      <p>Opis drugiej szkoły.</p>
+      <h3>Policealne Studium Zawodowe</h3>
+      <span class="date">1998 — 2000</span>
+      <p>Technik Informatyk | Zawodowe.</p>
+    </div>
+
+     <div class="entry">
+    <div class="icon">🎓</div>
+    <div class="content">
+      <h3>Liceum Ogólno<ształcące/h3>
+      <span class="date">1994 — 1998</span>
+      <p>Ogólne.</p>
     </div>
   </div>
-
 </div>
 
 ---
@@ -67,7 +74,6 @@ layout: default
     </div>
   </div>
 </div>
-
 
 ---
 
