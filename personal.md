@@ -17,3 +17,16 @@ layout: default
   Magazynier LAC-MET Spółka z ograniczoną odpowiedzialnością Sp. k Gnieźnieńska 2 12-100 Szczytno Krótki opis stanowiska: Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością, realizacja zamówień, przygotowanie, pakowanie i wysyłka towarów, wspieranie prac      działu handlowego.
 - 07.2010 – 07.2016 (6 lat 1 mies.) Magazynier Novum Wyposażenie Placóe Zabaw Sławomir Chmieliński Grom Krótki opis stanowiska: Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością, realizacja zamówień, przygotowanie, pakowanie i wysyłka towarów, obsługa        systemy do wypisywania przesyłek UPS World Ship 2012, wspieranie prac działu handlowego.
 
+## 🎓 Wykształcenie
+- 10.2007 – 04.2011 (3 lata 7 mies.)
+  Olsztyńska Wyższa Szkoła Informatyki i Zarządzania im. Prof. Tadeusza Kotarbińskiego
+  Kierunek: informatyka, studia inżynierskie
+  Specjalizacja: Administracja Sieciami komputerowymi.
+  Stopień wykształcenia: inżynier informatyk
+- 09.1998 – 06.2000 (1 rok 10 mies.)
+  Policealne Studium Zawodowe
+  Specjalizacja: Technik Informatyk.
+  Poziom wykształcenia: zawodowe
+- 09.1994 – 08.1998 (4 lata)
+  Liceum Ogólnokształcące im. Jana III Sobieskiego
+  
