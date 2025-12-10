@@ -18,20 +18,12 @@ layout: default
 ## 🎓 Wykształcenie — Oś czasu
 
 <div class="timeline">
-
-<div class="entry">
-  <div class="year">2020 – 2023</div>
-  <div class="detail">
-    <strong>Politechnika Warszawska</strong><br>
-    Inżynier – Informatyka
+  {% for item in site.data.education %}
+  <div class="timeline-item">
+    <span class="timeline-year">{{ item.year }}</span>
+    <span class="timeline-detail">{{ item.school }} — {{ item.degree }}</span>
   </div>
-</div>
-
-<div class="entry">
-  <div class="year">2017 – 2020</div>
-  <div class="detail">
-    Technik Informatyk
-  </div>
+  {% endfor %}
 </div>
 
 </div>
@@ -41,16 +33,13 @@ layout: default
 ## 💼 Doświadczenie zawodowe — Oś czasu
 
 <div class="timeline">
-
-<div class="entry">
-  <div class="year">2023 – obecnie</div>
-  <div class="detail">
-    <strong>Firma ABC</strong><br>
-    Specjalista IT<br>
-    • Administracja systemami<br>
-    • Utrzymanie infrastruktury<br>
-    • Automatyzacja procesów
+  {% for item in site.data.experience %}
+  <div class="timeline-item">
+    <span class="timeline-year">{{ item.year }}</span>
+    <span class="timeline-detail">{{ item.company }} — {{ item.position }}</span>
   </div>
+  {% endfor %}
+</div>
 </div>
 
 <div class="entry">
