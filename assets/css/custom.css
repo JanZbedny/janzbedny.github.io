@@ -1,54 +1,118 @@
-/* Usunięcie nadmiarowej przestrzeni po prawej i pełna szerokość */
-*,
-*::before,
-*::after { box-sizing: border-box; }
+/* ============================
+   GLOBAL STYLE – CLEAN THEME
+   ============================ */
 
-html, body {
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  background: #f7f7f7;
+  color: #222;
   margin: 0;
   padding: 0;
-  /* Jeśli w którymś miejscu użyto width:100vw (co powoduje poziome przewijanie),
-     overflow-x:hidden tymczasowo ukryje nadmiar – docelowo zamień 100vw na 100%. */
-  overflow-x: hidden;
 }
 
-/* Rozciągnij główne kontenery do pełnej szerokości */
-.wrapper,
-.container,
-main,
-section,
-header,
-footer {
+/* ============================
+   SIDEBAR
+   ============================ */
+
+#sidebar {
+  width: 260px;
+  background: #ffffff;
+  border-right: 1px solid #e3e3e3;
+  padding: 2rem 1.4rem;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+#sidebar h1 {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #111;
+}
+
+#sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sidebar nav li {
+  margin: 0.6rem 0;
+}
+
+#sidebar nav a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#sidebar nav a:hover {
+  color: #0074d9;
+  text-decoration: underline;
+}
+
+/* Sidebar image */
+.sidebar-photo img {
   width: 100%;
-  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+  border: 2px solid #eee;
 }
 
-/* Cayman: poszerz wrapper treści */
-.page-content .wrapper {
-  max-width: none;     /* usuń stałe ograniczenie szerokości */
-  width: 100%;         /* pełna szerokość */
-  padding: 0 16px;     /* niewielkie marginesy wewnętrzne */
+/* ============================
+   MAIN CONTENT
+   ============================ */
+
+#content {
+  margin-left: 280px;
+  padding: 2.2rem;
+  background: #fff;
+  min-height: 100vh;
 }
 
-/* Obramowanie i media nieprzekraczające szerokości */
-img, video, canvas, iframe {
-  display: block;
-  max-width: 100%;
-  height: auto;
+/* More readable headings */
+h1, h2, h3, h4 {
+  color: #111;
+  font-weight: 600;
+  margin-top: 1.6rem;
 }
 
-/* Długie linie w kodzie/tekstach nie powinny „rozpychać” strony */
-pre, code {
-  white-space: pre-wrap;
-  word-break: break-word;
+/* Lists */
+ul, ol {
+  padding-left: 1.4em;
+  margin-bottom: 1em;
 }
 
-/* Jeśli gdziekolwiek masz sekcje ustawione na 100vw – nadpisz na 100% */
-section, header, footer {
-  max-width: 100%;
+li {
+  margin-bottom: 0.4em;
 }
 
-/* Siatki: uniknij sztywnej szerokości kolumn */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+/* Links */
+a {
+  color: #0066cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Paragraph spacing */
+p {
+  margin: 0.9rem 0;
+}
+
+/* Improved layout on mobile */
+@media (max-width: 768px) {
+  #sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-right: none;
+  }
+  #content {
+    margin-left: 0;
+    padding: 1.4rem;
+  }
 }
