@@ -24,4 +24,4 @@ title: Doświadczenie zawodowe
   realizacja zamówień, przygotowanie, pakowanie i wysyłka towarów, obsługa
   systemy do wypisywania przesyłek UPS World Ship 2012, wspieranie prac
   działu handlowego.
----
+
