@@ -41,19 +41,28 @@ layout: default
 
 ## 💼 Doświadczenie zawodowe — Oś czasu
 
-<div class="timeline cv-timeline">
-  {% for item in site.data.experience %}
-  <div class="timeline-item">
-    <div class="timeline-icon"><i class="fa-solid fa-briefcase"></i></div>
-    <div class="timeline-line"></div>
-    <div class="timeline-content">
-      <span class="timeline-year">{{ item.year }}</span>
-      <h3>{{ item.company }}</h3>
-      <p>{{ item.position }}</p>
+<div class="timeline">
+
+  <div class="entry">
+    <div class="icon">💼</div>
+    <div class="content">
+      <h3>Stanowisko 1</h3>
+      <span class="date">2018 — obecnie</span>
+      <p>Opis Twojego doświadczenia zawodowego — wpisz to, co masz w repo.</p>
     </div>
   </div>
-  {% endfor %}
+
+  <div class="entry">
+    <div class="icon">💼</div>
+    <div class="content">
+      <h3>Stanowisko 2</h3>
+      <span class="date">2015 — 2018</span>
+      <p>Opis drugiej pracy.</p>
+    </div>
+  </div>
+
 </div>
+
 
 ---
 
