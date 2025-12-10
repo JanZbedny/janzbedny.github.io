@@ -10,9 +10,9 @@ plugins:
   - jekyll-sitemap
 
 menu:
-  - title: O Mnie
-    url: /
-  - title: O mnie
+  - title: Dane osobowe
+    url: /index.md
+  - title: Wykształcenie
     url: /about.md
-  - title: Blog
-    url: /blog/
+  - title: Doświadczenie zawodowe
+    url: /experience.md
