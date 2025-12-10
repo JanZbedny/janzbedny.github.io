@@ -12,6 +12,12 @@ body {
   padding: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* ============================
    SIDEBAR
    ============================ */
@@ -62,21 +68,21 @@ body {
 }
 
 /* ============================
-   MAIN CONTENT
+   MAIN CONTENT – FINAL VERSION
    ============================ */
+
 #content {
+  margin-left: 280px;   /* odstęp od sidebaru */
+  padding: 2.2rem;
   background: #fff;
   min-height: 100vh;
 
-  /* szerokość treści */
+  /* wyśrodkowanie treści */
   max-width: 900px;
-  margin: 0 auto;
-
-  /* odstęp od sidebaru */
-  margin-left: 280px;
-  padding: 2.2rem;
+  width: 100%;
 }
-/* More readable headings */
+
+/* Headings */
 h1, h2, h3, h4 {
   color: #111;
   font-weight: 600;
@@ -107,7 +113,7 @@ p {
   margin: 0.9rem 0;
 }
 
-/* Improved layout on mobile */
+/* Mobile view */
 @media (max-width: 768px) {
   #sidebar {
     position: relative;
@@ -115,43 +121,10 @@ p {
     height: auto;
     border-right: none;
   }
+
   #content {
-    max-width: 100%;
     margin-left: 0;
+    max-width: 100%;
     padding: 1.4rem;
   }
-}
-/* Usunięcie nadmiarowej przestrzeni po prawej i pełna szerokość */
-*,
-*::before,
-*::after { box-sizing: border-box; }
-
-html, body {
-  margin: 0;
-  padding: 0;
-  /* Jeśli w którymś miejscu użyto width:100vw (co powoduje poziome przewijanie),
-     overflow-x:hidden tymczasowo ukryje nadmiar – docelowo zamień 100vw na 100%. */
-  overflow-x: hidden;
-}
-
-/* Wyśrodkowanie i maksymalna szerokość dla treści CV */
-main#content, .page-content, .wrapper {
-  max-width: 900px;     /* szerokość treści */
-  margin: 0 auto;       /* wyśrodkowanie */
-  padding: 20px;        /* odstęp od brzegów */
-  box-sizing: border-box;
-}
-
-/* Poprawa czytelności */
-.page-content h1,
-.page-content h2,
-.page-content h3 {
-  margin-top: 24px;
-  margin-bottom: 12px;
-}
-
-.page-content p,
-.page-content ul {
-  line-height: 1.6;
-  font-size: 1.05rem;
 }
