@@ -3,7 +3,7 @@ layout: default
 title: Wykształcenie
 ---
 
-# Wykształcenie
+## 🎓 Wykształcenie
 - 10.2007 – 04.2011 (3 lata 7 mies.)
   Olsztyńska Wyższa Szkoła Informatyki i Zarządzania im. Prof. Tadeusza Kotarbińskiego
   Kierunek: informatyka, studia inżynierskie
