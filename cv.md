@@ -41,7 +41,6 @@ layout: default
       <p>Ogólne.</p>
     </div>
   </div>
-</div>
 
 ---
 ## 💼 Doświadczenie zawodowe — Oś czasu
