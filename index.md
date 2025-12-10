@@ -4,7 +4,6 @@ layout: default
 ---
 
 # Dane osobowe
-
 - Imię i Nazwisko: Tomasz Kowalczyk
 - Data urodzenia: DD-MM-YY r.
 - Telefon: 111-222-333
@@ -12,7 +11,6 @@ layout: default
 - Lokalizacja: Olsztyn, Polska
 
 # Doświadczenie zawodowe
-
 - 05.2019 – 12.2022 (3 lata 8 mies.)
   ds. obsługi informatycznej Gmina Świętajno Świętajno Krótki opis stanowiska: Administracja systemami informatycznymi, zapewnienie bezpieczeństwa, redaktor strony urzędu, zapewnienie ciągłości działania urzędu, współpraca z jednostkami podległymi, udział w projektach       unijnych, obsługa serwisu https://www.ceeb.gov.pl(wprowadzanie, edycja), administracja lokalna Systemem Rejestrów Państwowych - Dowody Osobiste z drugą cechą biometryczną, obsługa portalu ePuap 2,administracja lokalna systemami dziedzinowymi, obsługa Biuletynu             Informacji Publicznej, obsługa transmisji obrad, edycja dokumentów dostępnych cyfrowo.
 - 08.2016 – 05.2019 (2 lata 10 mies.)
