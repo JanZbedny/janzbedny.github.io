@@ -32,7 +32,17 @@ layout: default
 
 ## 💼 Doświadczenie zawodowe — Oś czasu
 
+- Rok: "2019–2022"
+  Firma: "Urząd Gminy w Świętajnie | Grunwaldzka 15 12-140 Świętajno"
+  Stanowisko: "Administrator Systemów Informatycznych"
 
+- Rok: "2016-2019"
+  Firma: "LAC-Met Spółka z ograniczoną odpowiedzialnością Sp. k | Gnieźnieńska 2 12-100 Szczytno"
+  Stanowisko: "Magazynier"
+
+- Rok: "2010-2016"
+  Firma: "Novum Wyposasżenie Placów Zabaw  | Gnieźnieńska 2a 12-100 Szczytno"
+  Stanowisko: "Magazynier"
 ---
 
 ## 🛠️ Umiejętności
