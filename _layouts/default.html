@@ -4,47 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+ <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <div class="site-container">
+  <aside id="sidebar">
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <ul>
+        {% for item in site.menu %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </aside>
 
-    <!-- HEADER -->
-    <header class="site-header">
-      <button id="theme-toggle">🌙</button>
-      <h1>{{ site.title }}</h1>
-    </header>
+  <main id="content">
+    {{ content }}
+  </main>
 
-    <!-- GŁÓWNA ZAWARTOŚĆ -->
-    <div class="site-wrapper">
-      <aside id="sidebar">
-        <nav>
-          <ul>
-            {% for item in site.menu %}
-              <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-          </ul>
-        </nav>
-      </aside>
+  <footer>
+    <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}</p>
+  </footer>
 
-      <main class="site-content">
-        {{ content }}
-      </main>
-    </div>
-
-    <!-- STOPKA -->
-    <footer class="site-footer">
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
-    </footer>
-
-  </div>
+  <button id="dark-toggle">🌓</button>
 
   <script>
-    const toggle = document.getElementById('theme-toggle');
+    const toggle = document.getElementById('dark-toggle');
     toggle.addEventListener('click', () => {
-      document.documentElement.dataset.theme =
-        document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+      const theme = document.documentElement.getAttribute('data-theme');
+      document.documentElement.setAttribute('data-theme', theme === 'light' ? 'dark' : 'light');
     });
   </script>
 </body>
 </html>
+
