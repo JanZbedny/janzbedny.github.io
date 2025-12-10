@@ -71,41 +71,22 @@ body {
    MAIN CONTENT – FINAL VERSION
    ============================ */
 
-/* -------------------------------------------
-   CONTENT – pełna szerokość obok sidebaru
-------------------------------------------- */
 #content {
+  margin-left: 280px;   /* odstęp od sidebaru */
+  padding: 2.2rem;
   background: #fff;
   min-height: 100vh;
 
-  /* usuwamy ograniczenie max-width */
-  max-width: none;
-
-  /* odsunięcie wyłącznie o szerokość sidebaru */
-  margin-left: 260px;
-  
-  /* odstęp wewnętrzny */
-  padding: 2.2rem;
-
-  /* treść ma wypełniać całą szerokość */
-  width: calc(100% - 260px);
-  box-sizing: border-box;
+  /* wyśrodkowanie treści */
+  max-width: 900px;
+  width: 100%;
 }
 
-/* usuwamy ograniczenia narzucone wcześniej */
-main#content, .page-content, .wrapper {
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  #content {
-    width: 100%;
-    margin-left: 0;
-    padding: 1.4rem;
-  }
+/* Headings */
+h1, h2, h3, h4 {
+  color: #111;
+  font-weight: 600;
+  margin-top: 1.6rem;
 }
 
 /* Lists */
