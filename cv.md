@@ -46,21 +46,26 @@ layout: default
   <div class="entry">
     <div class="icon">💼</div>
     <div class="content">
-      <h3>Stanowisko 1</h3>
-      <span class="date">2018 — obecnie</span>
-      <p>Opis Twojego doświadczenia zawodowego — wpisz to, co masz w repo.</p>
+      <h3>2019-2022</h3>
+      <p>ds. obsługi informatycznej/Administrator Systemów Informatycznych | Urząd Gminy w Świętajnie Grunwaldzka 15 12-140 Świętajno</p>
     </div>
   </div>
 
   <div class="entry">
     <div class="icon">💼</div>
     <div class="content">
-      <h3>Stanowisko 2</h3>
-      <span class="date">2015 — 2018</span>
-      <p>Opis drugiej pracy.</p>
+      <h3>2016-2019</h3>
+      <p>Magazynier | LAC-MET Sp. z o.o. Sp. k | Gnieżnieńska 2 12-100 Szczytno</p>
     </div>
   </div>
 
+ <div class="entry">
+    <div class="icon">💼</div>
+    <div class="content">
+      <h3>2010-2016</h3>
+      <p>Magazynier | Novum Wyposażenie Placów Zabaw Sławomir Chmieliński | Gnieżnieńska 2a 12-100 Szczytno</p>
+    </div>
+  </div>
 </div>
 
 
@@ -68,7 +73,6 @@ layout: default
 
 ## 🧠 Umiejętności
 
-- Programowanie: Python, Java, C#
 - HTML, CSS, Jekyll, GitHub Pages
 - Systemy Windows & Linux
 - Obsługa sprzętu i diagnostyka IT
