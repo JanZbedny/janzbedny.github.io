@@ -66,6 +66,8 @@ body {
    ============================ */
 
 #content {
+  max-width: 100%;
+  width: 100%;
   margin-left: 280px;
   padding: 2.2rem;
   background: #fff;
@@ -112,6 +114,7 @@ p {
     border-right: none;
   }
   #content {
+    max-width: 100%;
     margin-left: 0;
     padding: 1.4rem;
   }
