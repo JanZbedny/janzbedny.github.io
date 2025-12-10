@@ -13,6 +13,6 @@ menu:
   - title: Dane osobowe
     url: /
   - title: Wykształcenie
-    url: /about.md
+    url: /about.html
   - title: Doświadczenie zawodowe
-    url: /experience.md
+    url: /experience.html
