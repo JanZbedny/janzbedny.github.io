@@ -18,13 +18,6 @@ layout: default
 ## 🎓 Wykształcenie — Oś czasu
 
 <div class="timeline">
-  {% for item in site.data.education %}
-  <div class="timeline-item">
-    <span class="timeline-year">{{ item.year }}</span>
-    <span class="timeline-detail">{{ item.school }} — {{ item.degree }}</span>
-  </div>
-  {% endfor %}
-</div>
 
 </div>
 
