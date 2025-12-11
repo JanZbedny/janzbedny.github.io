@@ -5,10 +5,10 @@ layout: default
 
 ## 🧑‍💼 Dane osobowe
 - Imię i Nazwisko: Tomasz Kowalczyk
-- Data urodzenia: DD-MM-YY r.
-- Telefon: 111-222-333
-- E-mail: vvvvJan@protonmail.com
-- Lokalizacja: Olsztyn, Polska
+- Data urodzenia: 12.05.1979 r.
+- Telefon: +48 503 392 080
+- E-mail: tomasz.kowalczyk79@gmail.com
+- Lokalizacja: Szczytno, Polska
 ## 🎓 Wykształcenie
 - 10.2007 – 04.2011 (3 lata 7 mies.)
   Olsztyńska Wyższa Szkoła Informatyki i Zarządzania im. Prof. Tadeusza Kotarbińskiego
