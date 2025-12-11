@@ -8,12 +8,14 @@
 </head>
 <body>
 
- <aside id="sidebar">
+<aside id="sidebar">
+
   <div class="sidebar-photo">
     <img src="{{ '/assets/img/logo.webp' | relative_url }}" alt="Foto">
   </div>
 
   <h1>{{ site.title }}</h1>
+
   <nav>
     <ul>
       {% for item in site.menu %}
@@ -25,12 +27,16 @@
       {% endfor %}
     </ul>
   </nav>
-   <div class="sidebar-download">
-  <a href="{{ '/assets/cv/cv.pdf' | relative_url }}" target="_blank" class="download-btn">
-    📄 Pobierz CV (PDF)
-  </a>
-</div>
+
+  <!-- PRZYCISK CV NA SAMYM DOLE -->
+  <div class="sidebar-download">
+    <a href="{{ '/assets/cv/cv.pdf' | relative_url }}" class="download-btn" target="_blank">
+      📄 Pobierz CV (PDF)
+    </a>
+  </div>
+
 </aside>
+
 
 <main id="content">
   {{ content }}
