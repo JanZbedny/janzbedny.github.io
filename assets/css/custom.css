@@ -91,3 +91,14 @@
     padding: 1.4rem !important;
   }
 }
+/* ===== Aktywny link w menu ===== */
+
+#sidebar nav a.active {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #0074d9;
+}
+
+#sidebar nav a:hover {
+  text-decoration: underline;
+}
