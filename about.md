@@ -22,5 +22,16 @@ title: Wykształcenie
   Magazynier LAC-MET Spółka z ograniczoną odpowiedzialnością Sp. k|Gnieźnieńska 2 12-100 Szczytno Krótki opis stanowiska: Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością, realizacja zamówień, przygotowanie, pakowanie i wysyłka towarów, wspieranie prac      działu handlowego.
 - 07.2010 – 07.2016 (6 lat 1 mies.)
   Magazynier Novum Wyposażenie Placów Zabaw Sławomir Chmieliński|Gnieźnieńska 2a 12-100 Szczytno Krótki opis stanowiska: Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością, realizacja zamówień, przygotowanie, pakowanie i wysyłka towarów, obsługa systemy do    wypisywania przesyłek UPS World Ship 2012, wspieranie prac działu handlowego.
-
+## 🧠 Umiejętności - Zainteresowania
+- Komunikacja
+- Praca zespołowa
+- Analityczne myślenie
+- Organizacja czasu pracy
+- Linux
+- Windows Server
+- GitHub
+- HTML
+- Sieci komputerowe
+- Active Directory
+- Maszyny i środowiska wirtualne 
 
