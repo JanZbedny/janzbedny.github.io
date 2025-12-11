@@ -164,3 +164,33 @@ p {
 .download-btn:hover {
   background: #005bb5;
 }
+/* Naprawa nakładania się linków */
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;        /* wymuszamy stałą wysokość */
+  display: flex;
+  flex-direction: column;
+}
+
+#sidebar nav {
+  flex-grow: 1;
+}
+
+.sidebar-download {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  z-index: 5;
+  position: relative;
+}
+
+#sidebar nav a,
+#sidebar nav li,
+#sidebar nav ul {
+  position: relative;
+  z-index: 10;          /* menu zawsze nad przyciskiem */
+}
