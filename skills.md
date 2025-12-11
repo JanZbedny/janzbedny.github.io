@@ -2,7 +2,6 @@
 title: Umiejętności
 layout: default
 ---
-
 ## Umiejętności - Zainteresowania
 - Praca zespołowa
 - Analityczne myślenie
