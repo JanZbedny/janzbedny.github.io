@@ -59,9 +59,17 @@ layout: default
     </div>
   </div>
 </div>
-## 🧠 Umiejętności
-- HTML, CSS, Jekyll, GitHub Pages
-- Systemy Windows & Linux
-- Obsługa sprzętu i diagnostyka IT
+## 🧠 Umiejętności - Zainteresowania
+- Komunikacja
+- Praca zespołowa
+- Analityczne myślenie
+- Organizacja czasu pracy
+- Linux
+- Windows Server
+- GitHub
+- HTML
+- Sieci komputerowe
+- Active Directory
+- Maszyny i środowiska wirtualne 
 
 
