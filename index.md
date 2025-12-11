@@ -1,40 +1,97 @@
 ---
-title: Dane osobowe
+title: Strona główna
 layout: default
 ---
-## Dane osobowe
-- Imię i Nazwisko: Tomasz Kowalczyk
-- Data urodzenia: 12.05.1979 r.
-- Telefon: +48 503 392 080
-- E-mail: vvvvJan@pm.me
-- Lokalizacja: Szczytno, Polska
 
-## Wykształcenie
-- 10.2007 – 04.2011 (3 lata 7 mies.)
-  Olsztyńska Wyższa Szkoła Informatyki i Zarządzania im. Prof. Tadeusza Kotarbińskiego
-  Kierunek: informatyka, studia inżynierskie
-  Specjalizacja: Administracja Sieciami komputerowymi.
-  Stopień wykształcenia: inżynier informatyk
-- 09.1998 – 06.2000 (1 rok 10 mies.)
-  Policealne Studium Zawodowe
-  Specjalizacja: Technik Informatyk.
-  Poziom wykształcenia: zawodowe
-- 09.1994 – 08.1998 (4 lata)
-  Liceum Ogólnokształcące im. Jana III Sobieskiego
-## Doświadczenie zawodowe
-- 05.2019 – 12.2022 (3 lata 8 mies.)
-  ds. obsługi informatycznej Urząd Gminy w Świętajnie | Grunwaldzka 15 12-140 Świętajno Krótki opis stanowiska: Administracja systemami informatycznymi, zapewnienie bezpieczeństwa, redaktor strony urzędu, zapewnienie ciągłości działania urzędu, współpraca z jednostkami    podległymi, udział w projektach unijnych, administracja lokalna Systemem Rejestrów Państwowych - Dowody Osobiste z drugą cechą biometryczną, obsługa portalu ePuap 2,administracja lokalna systemami dziedzinowymi, obsługa Biuletynu Informacji Publicznej, obsługa           transmisji obrad, edycja dokumentów dostępnych cyfrowo.
-- 08.2016 – 05.2019 (2 lata 10 mies.)
-  Magazynier LAC-MET Spółka z ograniczoną odpowiedzialnością Sp. k | Gnieźnieńska 2 12-100 Szczytno Krótki opis stanowiska: Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością, realizacja zamówień, przygotowanie, pakowanie i wysyłka towarów, wspieranie       prac działu handlowego.
-- 07.2010 – 07.2016 (6 lat 1 mies.) Magazynier Novum Wyposażenie Placów Zabaw Sławomir Chmieliński | Gnieźnieńska 2a 12-100 Szczytno Krótki opis stanowiska: Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością, realizacja zamówień, przygotowanie,              pakowanie i wysyłka towarów, obsługa systemy do wypisywania przesyłek UPS World Ship 2012, wspieranie prac działu handlowego.
-## Umiejętności - Zainteresowania
-- Praca zespołowa
-- Analityczne myślenie
-- Organizacja czasu pracy
-- Linux
-- Windows Server
-- GitHub
-- HTML
-- Sieci komputerowe
-- Active Directory
-- Maszyny i środowiska wirtualne 
+# Dane osobowe
+
+| **Imię i Nazwisko**   | Tomasz Kowalczyk          |
+|-----------------------|---------------------------|
+| **Data urodzenia**    | 12.05.1979 r.             |
+| **Telefon**           | +48 503 392 080           |
+| **E-mail**            | [vvvvJan@pm.me](mailto:vvvvJan@pm.me) |
+| **Lokalizacja**       | Szczytno, Polska          |
+
+---
+
+# Wykształcenie
+
+### **10.2007 – 04.2011** (3 lata 7 mies.)
+**Olsztyńska Wyższa Szkoła Informatyki i Zarządzania im. Prof. Tadeusza Kotarbińskiego**
+- **Kierunek:** Informatyka, studia inżynierskie
+- **Specjalizacja:** Administracja Sieciami Komputerowymi
+- **Stopień wykształcenia:** Inżynier informatyk
+
+---
+
+### **09.1998 – 06.2000** (1 rok 10 mies.)
+**Policealne Studium Zawodowe**
+- **Specjalizacja:** Technik Informatyk
+- **Poziom wykształcenia:** Zawodowe
+
+---
+
+### **09.1994 – 08.1998** (4 lata)
+**Liceum Ogólnokształcące im. Jana III Sobieskiego**
+
+---
+
+# Doświadczenie zawodowe
+
+### **05.2019 – 12.2022** (3 lata 8 mies.)
+**Specjalista ds. obsługi informatycznej**
+[Urząd Gminy w Świętajnie](https://www.swietajno.ug.gov.pl/) | Grunwaldzka 15, 12-140 Świętajno
+
+**Obowiązki:**
+- Administracja systemami informatycznymi.
+- Zapewnienie bezpieczeństwa danych i ciągłości działania urzędu.
+- Redakcja i administracja stroną internetową urzędu.
+- Współpraca z jednostkami podległymi.
+- Udział w projektach unijnych.
+- Administracja lokalnym Systemem Rejestrów Państwowych (Dowody Osobiste z drugą cechą biometryczną).
+- Obsługa portalu **ePuap 2**.
+- Administracja lokalnymi systemami dziedzinowymi.
+- Obsługa Biuletynu Informacji Publicznej.
+- Obsługa transmisji obrad.
+- Edycja dokumentów dostępnych cyfrowo.
+
+---
+
+### **08.2016 – 05.2019** (2 lata 10 mies.)
+**Magazynier**
+[LAC-MET Sp. z o.o. Sp. k.](https://novum4kids.pl/) | Gnieźnieńska 2, 12-100 Szczytno
+
+**Obowiązki:**
+- Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością.
+- Realizacja zamówień.
+- Przygotowanie, pakowanie i wysyłka towarów.
+- Wspieranie prac działu handlowego.
+
+---
+
+### **07.2010 – 07.2016** (6 lat 1 mies.)
+**Magazynier**
+[Novum Wyposażenie Placów Zabaw Sławomir Chmieliński](https://novum4kids.pl/) | Gnieźnieńska 2a, 12-100 Szczytno
+
+**Obowiązki:**
+- Przestrzeganie procedur i instrukcji Systemu Zarządzania Jakością.
+- Realizacja zamówień.
+- Przygotowanie, pakowanie i wysyłka towarów.
+- Obsługa systemu **UPS World Ship 2012**.
+- Wspieranie prac działu handlowego.
+
+---
+
+# Umiejętności i zainteresowania
+
+<ul class="skills-list">
+  <li>Praca zespołowa</li>
+  <li>Analityczne myślenie</li>
+  <li>Organizacja czasu pracy</li>
+  <li>Systemy operacyjne: **Linux**, **Windows Server**</li>
+  <li>Platformy: **GitHub**</li>
+  <li>Technologie webowe: **HTML**</li>
+  <li>Sieci komputerowe</li>
+  <li>Active Directory</li>
+  <li>Maszyny i środowiska wirtualne</li>
+</ul>
