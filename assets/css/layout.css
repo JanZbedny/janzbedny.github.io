@@ -131,19 +131,31 @@ p {
     padding: 1.4rem;
   }
 }
-/* --- Download CV button in sidebar --- */
+/* Ustawiamy sidebar jako flex column */
+#sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Menu rośnie normalnie */
+#sidebar nav {
+  flex-grow: 1;
+}
+
+/* Sekcja download przyklejona do dołu */
 .sidebar-download {
-  margin-top: 30px;
+  margin-top: auto;
   padding-top: 20px;
   border-top: 1px solid #ddd;
 }
 
+/* Styl przycisku */
 .download-btn {
   display: block;
   background: #0074d9;
-  color: white !important;
+  color: #fff !important;
   text-align: center;
-  padding: 12px 15px;
+  padding: 12px 14px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
