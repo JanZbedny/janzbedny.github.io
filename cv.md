@@ -4,10 +4,10 @@ layout: default
 ---
 
 ## 🧑‍💼 Dane osobowe
--👨‍💼Imię i nazwisko: Tomasz Kowalczyk
--📧Email: vvvvJan@pm.me
--📞Telefon: +48 503 392 080
--📍Adres: Szczytno, Polska
+- 👨‍💼 Imię i nazwisko: Tomasz Kowalczyk
+- 📧 Email: vvvvJan@pm.me
+- 📞 Telefon: +48 503 392 080
+- 📍 Adres: Szczytno, Polska
 ## 🎓 Wykształcenie — Oś czasu
 <div class="timeline">
   <div class="entry">
