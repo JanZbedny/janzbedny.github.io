@@ -101,9 +101,6 @@ body {
 /* ============================
    CONTENT
 ============================ */
-/* ============================
-   CONTENT
-============================ */
 #content {
   margin-left: 260px;
   padding: 2.2rem;
@@ -113,19 +110,15 @@ body {
   box-sizing: border-box;
   position: relative;
   z-index: 1;
-  max-width: 800px; /* Ogranicz szerokość treści */
-  margin: 0 auto; /* Wycentruj treść */
-  padding: 2.2rem 1.4rem; /* Dodaj odpowiedni padding */
-}
-/* Poprawa czytelności tekstu */
-#content p {
-  margin: 0.9rem 0;
+  max-width: 650px; /* Wąski blok treści, jak na stronie Kalmar */
+  margin: 0 auto; /* Wycentrowanie treści */
+  padding: 2.2rem;
   line-height: 1.7;
   font-size: 1.05rem;
   color: #333; /* Ciemniejszy kolor tekstu */
 }
 
-/* Style dla nagłówków */
+/* Nagłówki */
 #content h1,
 #content h2,
 #content h3,
@@ -137,14 +130,20 @@ body {
   line-height: 1.3;
 }
 
-/* Style dla list */
+/* Akapity */
+#content p {
+  margin: 1em 0;
+  line-height: 1.7;
+}
+
+/* Listy */
 #content ul,
 #content ol {
   padding-left: 1.6em;
-  margin-bottom: 1.2em;
+  margin: 1em 0;
 }
 
-/* Style dla linków */
+/* Linki */
 #content a {
   color: #0066cc;
   text-decoration: none;
@@ -156,12 +155,37 @@ body {
   text-decoration: underline;
 }
 
-/* Style dla obrazków */
+/* Obrazy */
 #content img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 1.2rem auto;
+}
+
+/* Kody i bloki kodu */
+#content pre,
+#content code {
+  background: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  overflow-x: auto;
+}
+
+#content pre {
+  padding: 1rem;
+  margin: 1.2rem 0;
+}
+
+/* Blok cytatu */
+#content blockquote {
+  border-left: 4px solid #007acc;
+  padding: 0.5rem 1.2rem;
+  margin: 1.2rem 0;
+  color: #666;
+  font-style: italic;
+  background: #f9f9f9;
 }
 
 /* Responsywność */
