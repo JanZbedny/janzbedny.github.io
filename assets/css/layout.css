@@ -36,17 +36,16 @@ body {
 
 /* Avatar / zdjęcie */
 .sidebar-photo {
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
-
 .sidebar-photo img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: none;
-  background-color: transparent;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none; /* Usunięcie białej ramki */
+    background-color: transparent; /* Upewnienie się, że tło jest przezroczyste */
 }
 
 /* Nagłówek – imię */
