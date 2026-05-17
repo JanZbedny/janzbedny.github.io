@@ -8,7 +8,7 @@ layout: default
 | **Imię i Nazwisko**   | Tomasz Kowalczyk          |
 |-----------------------|---------------------------|
 | **Telefon**           | +48 690 275 994           |
-| **E-mail**            | [vvvvJan@pm.me](mailto:vvvvJan@pm.me) |
+| **E-mail**            | [TomaszKowalczyk79@pm.me](mailto:TomaszKowalczyk79@pm.me) |
 | **Lokalizacja**       | Szczytno, Polska          |
 
 ---
