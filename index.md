@@ -7,8 +7,7 @@ layout: default
 
 | **Imię i Nazwisko**   | Tomasz Kowalczyk          |
 |-----------------------|---------------------------|
-| **Data urodzenia**    | 12.05.1979 r.             |
-| **Telefon**           | +48 503 392 080           |
+| **Telefon**           | +48 690 275 994           |
 | **E-mail**            | [vvvvJan@pm.me](mailto:vvvvJan@pm.me) |
 | **Lokalizacja**       | Szczytno, Polska          |
 
